@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.chatty {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+.chatty__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.chatty__input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.chatty__input:focus {
+  border: 2px solid #555;
+}
+.chatty__button--red {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+.chatty__button--red:hover {
+  background-color: #d32f2f;
+}
+.chatty__text {
+  text-align: start;
+}
